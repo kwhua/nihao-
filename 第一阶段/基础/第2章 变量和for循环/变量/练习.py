@@ -1,0 +1,13 @@
+# name = input("请输入你的姓名:\n")
+# age = int(input("请输入你的年龄:\n"))
+# gender = input("请输入你的性别:\n")
+# hometown = input("请输入你的家乡:\n")
+# print(f"我叫{name},今年{age}岁,{gender},来自于{hometown}")
+
+print("欢迎光临本店,本店自动贩卖,小本生意,诚信经营!")
+print("苹果=4元/斤  香蕉=2元/斤  西瓜=2元/斤  葡萄=7元/斤")
+fruit_kind=input("请输入水果的种类:\n")
+price=input("请输入水果的价钱:\n")
+fruit_weight=float(input("请输入水果的重量:[斤]\n"))
+total_price=int(float(price)*fruit_weight)
+print(f"你买了{fruit_weight}斤的{fruit_kind},共需支付{total_price}元")
